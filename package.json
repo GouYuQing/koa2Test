@@ -1,17 +1,27 @@
 {
   "name": "koa2Test",
   "version": "1.0.0",
-  "description": "",
+  "description": "> A Koa.js project",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GouYuQing/koa2Test.git"
+  },
   "keywords": [],
   "author": "GouYuQing",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GouYuQing/koa2Test/issues"
+  },
+  "homepage": "https://github.com/GouYuQing/koa2Test#readme",
   "dependencies": {
+    "ejs": "^2.6.2",
     "koa": "^2.7.0",
     "koa-bodyparser": "^3.2.0",
-    "koa-router": "^7.4.0"
+    "koa-router": "^7.4.0",
+    "koa-views": "^6.2.0"
   }
 }
